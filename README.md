@@ -28,7 +28,7 @@ We have provided **2 starter ideas** for each dataset — you must design **at l
 - Feature 1: Find the maximum height
 - Feature 2: Compute the total horizontal distance covered
 - Feature 3: find displacement
-- Feature 4: find position
+- Feature 4: find final position
 - Feature 5: compute for the time
 
 *(You may add more features if you like.)*  
