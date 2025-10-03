@@ -1,6 +1,6 @@
 # 📌 Project Proposal (Draft)
 
-## 📝 Project Title  
+## 📝 Project Title  a
 *Enter your initial project title here.*  
 
 ---
