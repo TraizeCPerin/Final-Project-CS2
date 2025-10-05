@@ -22,16 +22,12 @@ Write at least **2–3 clear objectives** your project aims to achieve. Example:
 ---
 
 ## ⚙️ Planned Features  
-Your program must have **at least 5 features (minimum)**.  
-We have provided **2 starter ideas** for each dataset — you must design **at least 3 additional features**.  
-
 - Feature 1: Find the maximum height
 - Feature 2: Compute the total horizontal distance covered
 - Feature 3: find displacement
 - Feature 4: find final position
 - Feature 5: compute for the time
 
-*(You may add more features if you like.)*  
 
 ---
 
