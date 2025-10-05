@@ -1,23 +1,17 @@
 # 📌 Project Proposal (Draft)
 
 ## 📝 Project Title 
-*Enter your initial project title here.*  
+Kinematics Calculator
 
 ---
 
 ## 🔍 Problem Statement  
-What real-world problem does your project want to solve?  
-- Describe the issue or need you identified.  
-- Explain why this problem is relevant and worth solving.  
-- Relate the problem to the dataset you selected (e.g., hospital, ecommerce, students, etc.).  
+When manually calculating motion, it can end up being prone to errors and time consuming. This project uses the kinematics.json dataset to compute for efficiently. This makes calculating motion faster, easier, and more understandable than manually doing the work
 
 ---
 
 ## 🎯 Project Objectives  
-Write at least **2–3 clear objectives** your project aims to achieve. Example:  
-- Objective 1: To analyze and summarize data from the chosen JSON dataset.  
-- Objective 2: To help users gain meaningful insights (e.g., averages, trends, patterns).  
-- Objective 3: To practice JSON handling and Python programming concepts.  
+- 1. Apply the kinematic equations of motion in a program. Like solving for the acceleration, velocity, and more.            - 2. To design a code that can solve problems that involves kinematics
 
 ---
 
@@ -33,7 +27,7 @@ Write at least **2–3 clear objectives** your project aims to achieve. Example:
 
 ## ⌨️ Planned Inputs and Outputs  
 
-- **Inputs**  
+- **Inputs** 
   - Scenario ID
   - x0 (initial x-position)
   - y0 (initial y-position)
@@ -49,17 +43,8 @@ Write at least **2–3 clear objectives** your project aims to achieve. Example:
   - comparison results (which projectile traveled farther/higher)
 
 ## 🧠 Logic Plan  
-Choose **ONE** way to describe your program’s logic:  
-
-### Option 1: Pseudocode  
-Write your steps in plain English. Example:  
-Load JSON file
-Display menu of features
-If user chooses "1", compute average grade per student
-If user chooses "2", list all borrowed books
-Repeat until user exits program
-
-
-### Option 2: Flowchart  
-Attach or draw a flowchart showing how the program will work.  
-
+Pseudocode: 
+1.Load the projectile data from a JSON file or JSON variable.
+2. For each scenario in the data, display the scenario data.
+3. Read the time, x and y position and display the projectile’s position over time.
+4. End the program when all scenarios are handled, or when the user exits.
