@@ -11,7 +11,8 @@ When manually calculating motion, it can end up being prone to errors and time c
 ---
 
 ## 🎯 Project Objectives  
-- 1. Apply the kinematic equations of motion in a program. Like solving for the acceleration, velocity, and more.            - 2. To design a code that can solve problems that involves kinematics
+ 1. Apply the kinematic equations of motion in a program. Like solving for the acceleration, velocity, and more.
+ 2. To design a code that can solve problems that involves kinematics
 
 ---
 
