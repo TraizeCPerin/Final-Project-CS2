@@ -44,7 +44,7 @@ When manually calculating motion, it can end up being prone to errors and time c
 
 ## 🧠 Logic Plan  
 Pseudocode: 
-- 1.Load the projectile data from a JSON file or JSON variable.
-- 2. For each scenario in the data, display the scenario data.
-- 3. Read the time, x and y position and display the projectile’s position over time.
-- 4. End the program when all scenarios are handled, or when the user exits.
+1. Load the projectile data from a JSON file or JSON variable.
+2. For each scenario in the data, display the scenario data.
+3. Read the time, x and y position and display the projectile’s position over time.
+4. End the program when all scenarios are handled, or when the user exits.
