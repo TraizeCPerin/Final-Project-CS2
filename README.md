@@ -9,7 +9,9 @@ Kinematics Calculator
 Many students struggle with projectile motion because it involves multiple calculations for height, distance, speed, and time, which can be confusing and time-consuming. For example, predicting how far a basketball will travel when thrown at different angles, how high a soccer ball will rise, or how a javelin moves in a sports event can be difficult without a clear method. Comparing multiple projectiles to see which goes the farthest or highest adds even more complexity.
 
 This problem is important because understanding projectile motion is a key part of learning physics and applying it in real-life situations like sports, engineering, and ballistics. Using a dataset of projectile scenarios stored in a JSON file, this project provides a tool that quickly calculates and compares motion parameters. It helps students visualize results, make connections between math and real-world motion, and explore physics in an interactive way.
+
 ---
+
 
 ## 🎯 Project Objectives  
 - 1. To calculate and display key motion parameters (maximum height, total range, average velocity) for different projectiles so students can easily see how speed and angle affect motion.
