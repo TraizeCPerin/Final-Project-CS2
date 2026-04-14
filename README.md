@@ -57,57 +57,67 @@ This problem is important because understanding projectile motion is a key part 
 ## 🧠 Logic Plan  
 Pseudocode: 
 START
-    Load "kinematics.json" data
 
-    LOOP forever
-        Display menu of features:
-            1. Maximum Height
-            2. Horizontal Range
-            3. Displacement at a specific time
-            4. Final Position at a specific time
-            5. Time of Flight
-            6. Exit
-        Get user choice
+INITIALIZE Firebase connection
+SET database reference to /projectiles
 
-        IF choice = Exit
-            BREAK
-        ENDIF
+FUNCTION max_height(v0, angle, g)
+    COMPUTE using formula
+    RETURN result
 
-        Ask for Scenario ID
-        Retrieve scenario data from JSON
+FUNCTION horizontal_range(v0, angle, g)
+    COMPUTE using formula
+    RETURN result
 
-        IF scenario not found
-            Display error message
-            CONTINUE
-        ENDIF
+FUNCTION average_velocity(v0, angle, g)
+    COMPUTE time of flight
+    COMPUTE displacement
+    RETURN displacement / time
 
-        IF choice = Maximum Height
-            Compute maximum height
-            Display result
+LOOP main menu
+    DISPLAY options:
+        1 Display Scenarios
+        2 Add Scenario
+        3 Update Scenario
+        4 Delete Scenario
+        5 Features
+        6 Exit
 
-        ELSE IF choice = Horizontal Range
-            Compute horizontal range
-            Display result
+    INPUT choice
 
-        ELSE IF choice = Displacement
-            Ask for time value
-            Compute displacement at that time
-            Display result
+    IF choice = 1
+        RETRIEVE all scenarios from Firebase
+        DISPLAY scenario data
 
-        ELSE IF choice = Final Position
-            Ask for time value
-            Compute final position at that time
-            Display result
+    ELSE IF choice = 2
+        INPUT v0, angle, g
+        COMPUTE max height, range, avg velocity
+        SAVE to Firebase
 
-        ELSE IF choice = Time of Flight
-            Compute time of flight
-            Display result
-
+    ELSE IF choice = 3
+        INPUT scenario ID
+        IF exists
+            UPDATE values
+            RECOMPUTE results
+            SAVE changes
         ELSE
-            Display invalid choice message
-        ENDIF
+            SHOW "not found"
 
-    END LOOP
+    ELSE IF choice = 4
+        INPUT scenario ID
+        IF exists
+            DELETE from Firebase
+        ELSE
+            SHOW "not found"
+
+    ELSE IF choice = 5
+        OPEN feature menu
+            - Compare scenarios
+            - View full scenario
+
+    ELSE IF choice = 6
+        EXIT program
+
+END LOOP
 
 END
-
