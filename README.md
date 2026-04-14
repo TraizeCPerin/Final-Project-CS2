@@ -55,7 +55,7 @@ This problem is important because understanding projectile motion is a key part 
        -  which reached the highest point
 
 ## 🧠 Logic Plan  
-Pseudocode: 
+Pseudocode:
 START
 
 INITIALIZE Firebase connection
